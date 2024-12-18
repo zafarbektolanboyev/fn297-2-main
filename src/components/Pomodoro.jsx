@@ -10,7 +10,7 @@ const clockLoap = new Howl({
 });
 function Pomodoro() {
   const [isRun, setIsrun] = useState(false);
-  const [timeMin, setTimeMin] = useState(1);
+  const [timeMin, setTimeMin] = useState(25);
   const [timeSec, setTimeSec] = useState(0);
   const navigate = useNavigate()
 
